@@ -2,6 +2,8 @@
 
 A basic tip calculator to compute tip and total amount based on the bill.
 
+---
+
 ## Features
 
 - Input bill amount
@@ -9,11 +11,15 @@ A basic tip calculator to compute tip and total amount based on the bill.
 - View calculated tip and total amount
 - Reset functionality
 
+---
+
 ## Tech Stack
 
 - HTML
 - CSS
 - JavaScript
+
+---
 
 ## Contact
 
