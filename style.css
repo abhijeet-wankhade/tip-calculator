@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b8dee6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f0f5;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.calculator {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.input-div {
+    padding: 20px;
+    width: 300px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #006d67;
+}
+
+#bill-amount {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    
+}
+
+.tip-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tip-buttons button {
+    flex: 1;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #006d67;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tip-buttons button:hover {
+    background-color: #004f4d;
+}
+
+.result-div {
+    background-color: #004f4d;
+    padding: 30px;
+    width: 300px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result {
+    margin-bottom: 20px;
+}
+
+.result p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #15dad3;
+}
+
+.result h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #19e9e2;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #5b8d8b;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #517e7c;
+}
+
+#reset-button {
+    background-color: #e74c3c;
+    color: white;
+    margin-top: 20px;
+}
+
+#reset-button:hover {
+    background-color: #c0392b;
+}
